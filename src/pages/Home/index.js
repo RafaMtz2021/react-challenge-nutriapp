@@ -4,7 +4,7 @@ import { getPosts } from "../../services/post";
 import Cards from "../../components/Cards/"
 
 function Home() {
-  const [square, setSquare] = useState([]);
+  const [card, setCard] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -13,16 +13,11 @@ function Home() {
 
       console.log(collection)
       
-      setSquare(collection)
+      setCard(collection)
     };
     fetchData();
   }, []);
 
-  console.log(square);
-
-  
-  
-  
   return (
     <>
       <header>
@@ -1080,16 +1075,16 @@ function Home() {
               </section>
 
               
-              {square.map(i=>
+              {card.map(cards=>
              
                 <Cards 
-                   key={i._id}
-                   id={i._id}
-		               date={i.date}
-		               likes={i.likes}
-		               title={i.title}
-		               tags={i.tags}
-		               url={i.url}
+                   key={cards._id}
+                   id={cards._id}
+		               date={cards.date}
+		               likes={cards.likes}
+		               title={cards.title}
+		               tags={cards.tags}
+		               url={cards.url}
                 />)
               }
 
