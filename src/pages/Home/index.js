@@ -10,6 +10,8 @@ function Home() {
     const fetchData = async () => {
       const data = await getPosts();
       const collection = data.data.post
+
+      console.log(collection)
       
       setSquare(collection)
     };

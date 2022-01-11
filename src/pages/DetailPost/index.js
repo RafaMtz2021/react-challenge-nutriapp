@@ -1,3 +1,4 @@
+
 import "./DetailPost.css";
 import React, {useState, useEffect} from "react";
 import {getPostsById} from "../../services/post";
@@ -832,3 +833,4 @@ function DetailPost(){
 };
 
 export default DetailPost;
+
