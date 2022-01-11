@@ -1,3 +1,7 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+
 const Cards = ({date,likes,title,tags,url,body}) => {
   return (
     <>
@@ -22,7 +26,13 @@ const Cards = ({date,likes,title,tags,url,body}) => {
             </div>
             <div className="ms-5">
                 <div className="card-title mb-3">
-                    <h2><a href="#" className="text-dark fw-bolder">{title}</a></h2>
+                    
+                    {/* <h2> */}
+                        {/* <a href="#" className="text-dark fw-bolder">{title}
+                        </a>
+                        <Link to= "post">{title}</Link>
+                        </h2> */}
+                        <Link className = "text-dark fw-bolder" to= "post">{title}</Link>
                 </div>
                 <div className="mb-3 text-black-50">
                     <a href="#" className="text-black-50 me-3"><span
