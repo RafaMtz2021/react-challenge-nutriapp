@@ -102,16 +102,684 @@ function DetailPost(){
                     </div>
                 </nav>
             </div>
-        </header>   
-        <main>
-            
-        </main>
+            </header>   
 
-        
+            <main>
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="sideIzquierda col-1 mt-5">
+                        <div class="columna">
+                            {/* reacción */}
+                            <div class="left-item pb-3">
+                                <a class="left_icons" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        aria-hidden="true" class="crayons-icon">
+                                        <path
+                                            d="M21.179 12.794l.013.014L12 22l-9.192-9.192.013-.014A6.5 6.5 0 0112 3.64a6.5 6.5 0 019.179 9.154zM4.575 5.383a4.5 4.5 0 000 6.364L12 19.172l7.425-7.425a4.5 4.5 0 10-6.364-6.364L8.818 9.626 7.404 8.21l3.162-3.162a4.5 4.5 0 00-5.99.334l-.001.001z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <p class="numbers">34</p>
+                            </div>
+                            {/* unicornio */}
+                            <div class="left-item pb-3">
+                                <a class="left_icons" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"
+                                        class="crayons-icon">
+                                        <path
+                                            d="M5.645 8.013c.013-.265-.261-.323-.4-.183-1.16 1.17-1.822 3.865-.344 7.32.294.961 1.938 3.19.84 6.131l-.003.006c-.094.255.206.404.366.263 1.395-1.226 1.933-3.593 1.1-6.375-.488-1.657-1.955-4.226-1.559-7.162zm-3.22 2.738c.05-.137-.124-.417-.326-.225-.939.893-1.316 2.863-.976 4.605.547 2.878 2.374 3.526 2.066 6.629-.028.102.176.38.348.154 1.546-2.033.409-4.453-.241-6.006-1.005-2.386-1.087-4.118-.871-5.157z"
+                                            fill="#08090A"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M13.622 7.223l8.579-3.68c.598-.256 1.087.547.6.985l-6.618 5.941c.881 2.043 2.738 6.34 2.931 6.775 1.348 3.031-2.055 4.918-3.807 3.583a7.027 7.027 0 01-.623-.574c-.974-.965-2.419-2.398-5.207-1.877.284-2.115-.313-3.737-.883-5.288-.38-1.032-.747-2.032-.837-3.124-.346-3.329 3.763-8.23 4.696-7.953.386.115.326 1.229.266 2.319-.051.948-.102 1.88.143 2.12.145.142.428.43.76.773zM11.5 16.5l2.5.5 2.5 2 1-.5-2-4.5-1.5-4-1.5-1-1-1-1-1.5L10 8l-.5 1.5 1 2.5 1 4.5z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <p class="numbers">9</p>
+                            </div>
+                            {/* guardar */}
+                            <div class="left-item pb-3">
+                                <a class="left_icons" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        aria-hidden="true" class="crayons-icon">
+                                        <path
+                                            d="M5 2h14a1 1 0 011 1v19.143a.5.5 0 01-.766.424L12 18.03l-7.234 4.536A.5.5 0 014 22.143V3a1 1 0 011-1zm13 2H6v15.432l6-3.761 6 3.761V4z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <p class="numbers">33</p>
+                            </div>
+                            {/* puntos */}
+                            <div class="left-item pb-3">
+                                <a class="left_icons" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"
+                                        class="dropdown-icon crayons-icon">
+                                        <title>More...</title>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M7 12a2 2 0 11-4 0 2 2 0 014 0zm7 0a2 2 0 11-4 0 2 2 0 014 0zm5 2a2 2 0 100-4 2 2 0 000 4z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="center-section col-lg-8 col-md-10 bg-white">
+                        <div class="post_card rounded-3">
+                            //HERE GOES THE IMAGE
+                            <img src="../img/main_post.png" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                //IN THE NEXT LINES GOES THE POST TITLE
+                                <h1 class="fs-3xl m:fs-4xl l:fs-5xl fw-bold s:fw-heavy lh-tight mb-4 long">TITLE</h1>
+                                // IN THE NEXT DIV GO THE TAGS
+                                <div class="badges mt-2 mb-4">
+                                    <a href="#"><span class="badge bg-dark">TAG1</span></a>
+                                    <a href="#"><span class="badge bg-primary">TAG2</span></a>
+                                    <a href="#"><span class="badge bg-secondary">TAG3</span></a>
+                                    <a href="#"><span class="badge bg-warning text-dark">TAG4</span></a>
+                                </div>
 
-        
+                                <div class="subhead d-flex align-items-center mb-3 flex-wrap">
+                                    <img src="#"
+                                        class="border border-light border border-1 rounded-circle avatar" alt="..." />
+                                    <a href="#"><span class="badge bg-light text-dark names">AUTHOR NAME</span></a>
+                                    <p class="dates">PUBLICATION DATE AND READ TIME</p>
+                                </div>
+                                <p>POST CONTENT</p>
 
-        
+
+
+                            <h2>
+                                <a name="suggestions-and-feedback-welcome" href="#">
+                                </a>
+                                Suggestions and feedback welcome!
+                            </h2> 
+                            <p>Driwwwle is in its initial stages at the moment and I would highly appreciate any feedback,
+                                suggestions and questions you would like to provide. What features would you like to see?
+                                What seems unnecessary or what's causing difficulties? </p>
+                            <p>Thank you for your time and I await to see your posts on Driwwwle soon. Until then, have a
+                                nice day!</p>
+                            <div class="post_card">
+                                <div class="card-body d-flex justify-content-between align-items-center px-5">
+                                    <h3 class="card-subtitle mb-2">Discussion (12)</h3>
+                                    <button type="button" class="btn btn-outline-secondary">Subscribe</button>
+                                </div>
+                            </div>
+
+                            {/* Capturar un comentario */}
+                            <div class="pt-3 d-flex w-100 justify-content-center">
+                                <img src="../img/suscriber.png" class="card-img-top rounded-circle avatar2" alt="..." />
+                                <textarea class="form-floating txt-area" id="floatingTextarea" rows="5"
+                                    placeholder="Add to the discussion"></textarea>
+
+                            </div>
+
+                            <div class="comment">
+                                {/* Comentario de un suscriptor1 */}
+                                <div class="subhead d-flex my-3 justify-content-center">
+                                    <div class="imagen">
+                                        <img src="../img/people1.png"
+                                            class=" align-self-center border-light border border-1 rounded-circle avatar2"
+                                            alt="..." />
+                                    </div>
+                                    <div
+                                        class="opinion d-flex flex-wrap flex-column border border-secondary comment1 rounded-3">
+                                        <div class="container d-flex align-items-center justify-content-start">
+                                            <a href="#"><span class="badge bg-light text-dark names">Jay Jeckel</span></a>
+                                            <p>.</p>
+                                            <p class="dates mx-2">Sep 20</p>
+                                        </div>
+                                        {/* <div class="actions">
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true" class="dropdown-icon crayons-icon"><title>More...</title><path fill-rule="evenodd" clip-rule="evenodd" d="M7 12a2 2 0 11-4 0 2 2 0 014 0zm7 0a2 2 0 11-4 0 2 2 0 014 0zm5 2a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+                                            </a>
+                                        </div> */}
+                                        <p>Interesting idea and much props for building a site! However, there are a few
+                                            things that should be pointed out.
+
+                                            First, looking at the site's github repo, the project source is publicly visible
+                                            but it isn't open source. To be open source a project must have a permissible
+                                            license, such as MIT, GPL, Apache, etc. Without a license, the project is
+                                            proprietary and using the source is technically copyright infringement.
+
+                                            Additionally, the site's landing page doesn't have links to any of the
+                                            information a cautious user wants to see before signing up, such as Terms of
+                                            Use, Privacy Policy, and an About page. Every website should have these three
+                                            pages available from every other page of the site and especially from the
+                                            landing page.
+                                        </p>
+                                    </div>
+
+                                </div>
+                                {/* Respuesta del autor */}
+                                <div class="subhead d-flex my-3 me-5 justify-content-end">
+                                    <div class="imagen">
+                                        <img src="../img/avatar.jpeg" class="card-img-top rounded-circle avatar2" alt="..." />
+                                    </div>
+                                    <div
+                                        class="opinion d-flex flex-wrap flex-column border border-secondary comment2 rounded-3">
+                                        <div class="container d-flex align-items-center justify-content-start">
+                                            <a href="#"><span class="badge bg-light text-dark names">Nitin
+                                                    Ranganath</span></a>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" role="img"
+                                                aria-labelledby="aez12f7f6o87u158kqzikdu5aw94pdym" class="crayons-icon">
+                                                <title id="aez12f7f6o87u158kqzikdu5aw94pdym">Author</title>
+                                                <path
+                                                    d="M12 8.25a6 6 0 110 12 6 6 0 010-12zm0 2.625l-.992 2.01-2.218.322 1.605 1.564-.379 2.21L12 15.937l1.984 1.043-.379-2.209 1.605-1.564-2.218-.323L12 10.875zm.75-6.376l3.75.001v2.25l-1.022.854a7.45 7.45 0 00-2.728-.817V4.5zm-1.5 0v2.288a7.451 7.451 0 00-2.727.816L7.5 6.75V4.5h3.75z">
+                                                </path>
+                                            </svg>
+                                            <p>.</p>
+                                            <p class="dates mx-2">Sep 20</p>
+                                        </div>
+                                        <p>
+                                            Hi Jay, these are some extremely valid points. Thanks for bringing them up. It
+                                            must've slipped through my mind but I'll get started right away. Appreciate you
+                                            taking your time for letting me know!
+                                        </p>
+                                    </div>
+                                    {/* Reacciones */}
+                                    {/* <div class="reactions">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="anfh9sj69b56poy72cbv6dnth88xucav" class="crayons-icon reaction-icon not-reacted"><title id="anfh9sj69b56poy72cbv6dnth88xucav">Like comment:</title><path d="M18.884 12.595l.01.011L12 19.5l-6.894-6.894.01-.01A4.875 4.875 0 0112 5.73a4.875 4.875 0 016.884 6.865zM6.431 7.037a3.375 3.375 0 000 4.773L12 17.38l5.569-5.569a3.375 3.375 0 10-4.773-4.773L9.613 10.22l-1.06-1.062 2.371-2.372a3.375 3.375 0 00-4.492.25v.001z"></path></svg>
+                                        <span class="reactions-count" id="reactions-count-778262">6</span>
+                                        <span class="reactions-label hidden m:inline-block">&nbsp;likes</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a9kth866xe7e89zxghp5q9kuhzyhmjt7" class="crayons-icon reaction-icon not-reacted"><title id="a9kth866xe7e89zxghp5q9kuhzyhmjt7">Comment button</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+                                        <span class="reactions-label hidden m:inline-block">&nbsp;Reply</span>
+                                    </div> */}
+                                </div>
+                            </div>
+
+                            <div class="comment">
+                                {/* Comentario de un suscriptor 2 */}
+                                <div class="subhead d-flex my-3 justify-content-center">
+                                    <div class="imagen">
+                                        <img src="../img/people2.png"
+                                            class=" align-self-center border-light border border-1 rounded-circle avatar2"
+                                            alt="..."/>
+                                    </div>
+                                    <div
+                                        class="opinion d-flex flex-wrap flex-column border border-secondary comment1 rounded-3">
+                                        <div class="container d-flex align-items-center justify-content-start">
+                                            <a href="#"><span class="badge bg-light text-dark names">Padelis
+                                                    Theodosiou</span></a>
+                                            <p>.</p>
+                                            <p class="dates mx-2">Sep 20</p>
+                                        </div>
+                                        {/* <div class="actions">
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true" class="dropdown-icon crayons-icon"><title>More...</title><path fill-rule="evenodd" clip-rule="evenodd" d="M7 12a2 2 0 11-4 0 2 2 0 014 0zm7 0a2 2 0 11-4 0 2 2 0 014 0zm5 2a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+                                            </a>
+                                        </div> */}
+                                        <p>Hello @itsnitinr , looks awesome project!
+                                            Nice work!
+
+                                            Note: still waiting for the verification email :)
+                                        </p>
+                                    </div>
+
+                                </div>
+                                {/* Respuesta del autor */}
+                                <div class="subhead d-flex my-3 me-5 justify-content-end">
+                                    <div class="imagen">
+                                        <img src="../img/avatar.jpeg" class="card-img-top rounded-circle avatar2" alt="..." />
+                                    </div>
+                                    <div
+                                        class="opinion d-flex flex-wrap flex-column border border-secondary comment2 rounded-3">
+                                        <div class="container d-flex align-items-center justify-content-start">
+                                            <a href="#"><span class="badge bg-light text-dark names">Nitin
+                                                    Ranganath</span></a>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" role="img"
+                                                aria-labelledby="aez12f7f6o87u158kqzikdu5aw94pdym" class="crayons-icon">
+                                                <title id="aez12f7f6o87u158kqzikdu5aw94pdym">Author</title>
+                                                <path
+                                                    d="M12 8.25a6 6 0 110 12 6 6 0 010-12zm0 2.625l-.992 2.01-2.218.322 1.605 1.564-.379 2.21L12 15.937l1.984 1.043-.379-2.209 1.605-1.564-2.218-.323L12 10.875zm.75-6.376l3.75.001v2.25l-1.022.854a7.45 7.45 0 00-2.728-.817V4.5zm-1.5 0v2.288a7.451 7.451 0 00-2.727.816L7.5 6.75V4.5h3.75z">
+                                                </path>
+                                            </svg>
+                                            <p>.</p>
+                                            <p class="dates mx-2">Sep 20</p>
+                                        </div>
+                                        <p>
+                                            Hi there! Thanks for signing up. Could you please check your promotions tab if
+                                            you're using Gmail? If you're using Yahoo, you might find the email in the
+                                            'Unread' folder. It would've probably ended up there :)
+
+                                            Let me know if you still haven't received it. I'll be happy to send you from my
+                                            personal email.
+                                        </p>
+                                    </div>
+                                    {/* Reacciones */}
+                                    {/* <div class="reactions">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="anfh9sj69b56poy72cbv6dnth88xucav" class="crayons-icon reaction-icon not-reacted"><title id="anfh9sj69b56poy72cbv6dnth88xucav">Like comment:</title><path d="M18.884 12.595l.01.011L12 19.5l-6.894-6.894.01-.01A4.875 4.875 0 0112 5.73a4.875 4.875 0 016.884 6.865zM6.431 7.037a3.375 3.375 0 000 4.773L12 17.38l5.569-5.569a3.375 3.375 0 10-4.773-4.773L9.613 10.22l-1.06-1.062 2.371-2.372a3.375 3.375 0 00-4.492.25v.001z"></path></svg>
+                                        <span class="reactions-count" id="reactions-count-778262">6</span>
+                                        <span class="reactions-label hidden m:inline-block">&nbsp;likes</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a9kth866xe7e89zxghp5q9kuhzyhmjt7" class="crayons-icon reaction-icon not-reacted"><title id="a9kth866xe7e89zxghp5q9kuhzyhmjt7">Comment button</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+                                        <span class="reactions-label hidden m:inline-block">&nbsp;Reply</span>
+                                    </div> */}
+                                </div>
+                            </div>
+
+                            <div class="comment">
+                                {/* Comentario de un suscriptor 3 */}
+                                <div class="subhead d-flex my-3 justify-content-center">
+                                    <div class="imagen">
+                                        <img src="../img/people3.png"
+                                            class=" align-self-center border-light border border-1 rounded-circle avatar2"
+                                            alt="..." />
+                                    </div>
+                                    <div
+                                        class="opinion d-flex flex-wrap flex-column border border-secondary comment1 rounded-3">
+                                        <div class="container d-flex align-items-center justify-content-start">
+                                            <a href="#"><span class="badge bg-light text-dark names">Pandademic
+                                                </span></a>
+                                            <p>.</p>
+                                            <p class="dates mx-2">Sep 20</p>
+                                        </div>
+                                        {/* <div class="actions">
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true" class="dropdown-icon crayons-icon"><title>More...</title><path fill-rule="evenodd" clip-rule="evenodd" d="M7 12a2 2 0 11-4 0 2 2 0 014 0zm7 0a2 2 0 11-4 0 2 2 0 014 0zm5 2a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+                                            </a>
+                                        </div> */}
+                                        <p>
+                                            Wow, great idea. I will join soon! How have you done the video ? It’s amazing!
+                                        </p>
+                                    </div>
+
+                                </div>
+                                {/* Respuesta del autor */}
+                                <div class="subhead d-flex my-3 me-5 justify-content-end">
+                                    <div class="imagen">
+                                        <img src="../img/avatar.jpeg" class="card-img-top rounded-circle avatar2" alt="..." />
+                                    </div>
+                                    <div
+                                        class="opinion d-flex flex-wrap flex-column border border-secondary comment2 rounded-3">
+                                        <div class="container d-flex align-items-center justify-content-start">
+                                            <a href="#"><span class="badge bg-light text-dark names">Nitin
+                                                    Ranganath</span></a>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" role="img"
+                                                aria-labelledby="aez12f7f6o87u158kqzikdu5aw94pdym" class="crayons-icon">
+                                                <title id="aez12f7f6o87u158kqzikdu5aw94pdym">Author</title>
+                                                <path
+                                                    d="M12 8.25a6 6 0 110 12 6 6 0 010-12zm0 2.625l-.992 2.01-2.218.322 1.605 1.564-.379 2.21L12 15.937l1.984 1.043-.379-2.209 1.605-1.564-2.218-.323L12 10.875zm.75-6.376l3.75.001v2.25l-1.022.854a7.45 7.45 0 00-2.728-.817V4.5zm-1.5 0v2.288a7.451 7.451 0 00-2.727.816L7.5 6.75V4.5h3.75z">
+                                                </path>
+                                            </svg>
+                                            <p>.</p>
+                                            <p class="dates mx-2">Sep 20</p>
+                                        </div>
+                                        <p>
+                                            Thank you! Excited for you to join :)
+
+                                            The video is made using Adobe After Effects and free template that you can find
+                                            here: <a href="#">youtube.com/watch?v=GzTQFCHzgok</a>
+                                        </p>
+                                    </div>
+                                    {/* Reacciones */}
+                                    {/* <div class="reactions">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="anfh9sj69b56poy72cbv6dnth88xucav" class="crayons-icon reaction-icon not-reacted"><title id="anfh9sj69b56poy72cbv6dnth88xucav">Like comment:</title><path d="M18.884 12.595l.01.011L12 19.5l-6.894-6.894.01-.01A4.875 4.875 0 0112 5.73a4.875 4.875 0 016.884 6.865zM6.431 7.037a3.375 3.375 0 000 4.773L12 17.38l5.569-5.569a3.375 3.375 0 10-4.773-4.773L9.613 10.22l-1.06-1.062 2.371-2.372a3.375 3.375 0 00-4.492.25v.001z"></path></svg>
+                                        <span class="reactions-count" id="reactions-count-778262">6</span>
+                                        <span class="reactions-label hidden m:inline-block">&nbsp;likes</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a9kth866xe7e89zxghp5q9kuhzyhmjt7" class="crayons-icon reaction-icon not-reacted"><title id="a9kth866xe7e89zxghp5q9kuhzyhmjt7">Comment button</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+                                        <span class="reactions-label hidden m:inline-block">&nbsp;Reply</span>
+                                    </div> */}
+                                </div>
+                            </div>
+
+                            <div class="comment">
+                                {/* Comentario de un suscriptor 1 */}
+                                <div class="subhead d-flex my-3 justify-content-center">
+                                    <div class="imagen">
+                                        <img src="../img/people4.png"
+                                            class=" align-self-center border-light border border-1 rounded-circle avatar2"
+                                            alt="..." />
+                                    </div>
+                                    <div
+                                        class="opinion d-flex flex-wrap flex-column border border-secondary comment1 rounded-3">
+                                        <div class="container d-flex align-items-center justify-content-start">
+                                            <a href="#"><span class="badge bg-light text-dark names">Jay Jeckel</span></a>
+                                            <p>.</p>
+                                            <p class="dates mx-2">Sep 20</p>
+                                        </div>
+                                        {/* <div class="actions">
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true" class="dropdown-icon crayons-icon"><title>More...</title><path fill-rule="evenodd" clip-rule="evenodd" d="M7 12a2 2 0 11-4 0 2 2 0 014 0zm7 0a2 2 0 11-4 0 2 2 0 014 0zm5 2a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+                                            </a>
+                                        </div> */}
+                                        <p>Interesting idea and much props for building a site! However, there are a few
+                                            things that should be pointed out.
+
+                                            First, looking at the site's github repo, the project source is publicly visible
+                                            but it isn't open source. To be open source a project must have a permissible
+                                            license, such as MIT, GPL, Apache, etc. Without a license, the project is
+                                            proprietary and using the source is technically copyright infringement.
+
+                                            Additionally, the site's landing page doesn't have links to any of the
+                                            information a cautious user wants to see before signing up, such as Terms of
+                                            Use, Privacy Policy, and an About page. Every website should have these three
+                                            pages available from every other page of the site and especially from the
+                                            landing page.
+                                        </p>
+                                    </div>
+
+                                </div>
+                                {/* Respuesta del autor */}
+                                <div class="subhead d-flex my-3 me-5 justify-content-end">
+                                    <div class="imagen">
+                                        <img src="../img/avatar.jpeg" class="card-img-top rounded-circle avatar2" alt="..." />
+                                    </div>
+                                    <div
+                                        class="opinion d-flex flex-wrap flex-column border border-secondary comment2 rounded-3">
+                                        <div class="container d-flex align-items-center justify-content-start">
+                                            <a href="#"><span class="badge bg-light text-dark names">Nitin
+                                                    Ranganath</span></a>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" role="img"
+                                                aria-labelledby="aez12f7f6o87u158kqzikdu5aw94pdym" class="crayons-icon">
+                                                <title id="aez12f7f6o87u158kqzikdu5aw94pdym">Author</title>
+                                                <path
+                                                    d="M12 8.25a6 6 0 110 12 6 6 0 010-12zm0 2.625l-.992 2.01-2.218.322 1.605 1.564-.379 2.21L12 15.937l1.984 1.043-.379-2.209 1.605-1.564-2.218-.323L12 10.875zm.75-6.376l3.75.001v2.25l-1.022.854a7.45 7.45 0 00-2.728-.817V4.5zm-1.5 0v2.288a7.451 7.451 0 00-2.727.816L7.5 6.75V4.5h3.75z">
+                                                </path>
+                                            </svg>
+                                            <p>.</p>
+                                            <p class="dates mx-2">Sep 20</p>
+                                        </div>
+                                        <p>
+                                            Hi Jay, these are some extremely valid points. Thanks for bringing them up. It
+                                            must've slipped through my mind but I'll get started right away. Appreciate you
+                                            taking your time for letting me know!
+                                        </p>
+                                    </div>
+                                        {/* Reacciones */}
+                                    {/* <div class="reactions">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="anfh9sj69b56poy72cbv6dnth88xucav" class="crayons-icon reaction-icon not-reacted"><title id="anfh9sj69b56poy72cbv6dnth88xucav">Like comment:</title><path d="M18.884 12.595l.01.011L12 19.5l-6.894-6.894.01-.01A4.875 4.875 0 0112 5.73a4.875 4.875 0 016.884 6.865zM6.431 7.037a3.375 3.375 0 000 4.773L12 17.38l5.569-5.569a3.375 3.375 0 10-4.773-4.773L9.613 10.22l-1.06-1.062 2.371-2.372a3.375 3.375 0 00-4.492.25v.001z"></path></svg>
+                                        <span class="reactions-count" id="reactions-count-778262">6</span>
+                                        <span class="reactions-label hidden m:inline-block">&nbsp;likes</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a9kth866xe7e89zxghp5q9kuhzyhmjt7" class="crayons-icon reaction-icon not-reacted"><title id="a9kth866xe7e89zxghp5q9kuhzyhmjt7">Comment button</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+                                        <span class="reactions-label hidden m:inline-block">&nbsp;Reply</span>
+                                    </div> */}
+                                </div>
+                            </div>
+
+                            <div class="comment">
+                                {/* Comentario de un suscriptor 1 */}
+                                <div class="subhead d-flex my-3 justify-content-center">
+                                    <div class="imagen">
+                                        <img src="../img/people5.png"
+                                            class=" align-self-center border-light border border-1 rounded-circle avatar2"
+                                            alt="..."/>
+                                    </div>
+                                    <div
+                                        class="opinion d-flex flex-wrap flex-column border border-secondary comment1 rounded-3">
+                                        <div class="container d-flex align-items-center justify-content-start">
+                                            <a href="#"><span class="badge bg-light text-dark names">Jay Jeckel</span></a>
+                                            <p>.</p>
+                                            <p class="dates mx-2">Sep 20</p>
+                                        </div>
+                                        {/* <div class="actions">
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true" class="dropdown-icon crayons-icon"><title>More...</title><path fill-rule="evenodd" clip-rule="evenodd" d="M7 12a2 2 0 11-4 0 2 2 0 014 0zm7 0a2 2 0 11-4 0 2 2 0 014 0zm5 2a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+                                            </a>
+                                        </div> */}
+                                        <p>Interesting idea and much props for building a site! However, there are a few
+                                            things that should be pointed out.
+
+                                            First, looking at the site's github repo, the project source is publicly visible
+                                            but it isn't open source. To be open source a project must have a permissible
+                                            license, such as MIT, GPL, Apache, etc. Without a license, the project is
+                                            proprietary and using the source is technically copyright infringement.
+
+                                            Additionally, the site's landing page doesn't have links to any of the
+                                            information a cautious user wants to see before signing up, such as Terms of
+                                            Use, Privacy Policy, and an About page. Every website should have these three
+                                            pages available from every other page of the site and especially from the
+                                            landing page.
+                                        </p>
+                                    </div>
+
+                                </div>
+                                {/* Respuesta del autor */}
+                                <div class="subhead d-flex my-3 me-5 justify-content-end">
+                                    <div class="imagen">
+                                        <img src="../img/avatar.jpeg" class="card-img-top rounded-circle avatar2" alt="..." />
+                                    </div>
+                                    <div
+                                        class="opinion d-flex flex-wrap flex-column border border-secondary comment2 rounded-3">
+                                        <div class="container d-flex align-items-center justify-content-start">
+                                            <a href="#"><span class="badge bg-light text-dark names">Nitin
+                                                    Ranganath</span></a>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" role="img"
+                                                aria-labelledby="aez12f7f6o87u158kqzikdu5aw94pdym" class="crayons-icon">
+                                                <title id="aez12f7f6o87u158kqzikdu5aw94pdym">Author</title>
+                                                <path
+                                                    d="M12 8.25a6 6 0 110 12 6 6 0 010-12zm0 2.625l-.992 2.01-2.218.322 1.605 1.564-.379 2.21L12 15.937l1.984 1.043-.379-2.209 1.605-1.564-2.218-.323L12 10.875zm.75-6.376l3.75.001v2.25l-1.022.854a7.45 7.45 0 00-2.728-.817V4.5zm-1.5 0v2.288a7.451 7.451 0 00-2.727.816L7.5 6.75V4.5h3.75z">
+                                                </path>
+                                            </svg>
+                                            <p>.</p>
+                                            <p class="dates mx-2">Sep 20</p>
+                                        </div>
+                                        <p>
+                                            Hi Jay, these are some extremely valid points. Thanks for bringing them up. It
+                                            must've slipped through my mind but I'll get started right away. Appreciate you
+                                            taking your time for letting me know!
+                                        </p>
+                                    </div>
+                                    {/* Reacciones */}
+                                    {/* <div class="reactions">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="anfh9sj69b56poy72cbv6dnth88xucav" class="crayons-icon reaction-icon not-reacted"><title id="anfh9sj69b56poy72cbv6dnth88xucav">Like comment:</title><path d="M18.884 12.595l.01.011L12 19.5l-6.894-6.894.01-.01A4.875 4.875 0 0112 5.73a4.875 4.875 0 016.884 6.865zM6.431 7.037a3.375 3.375 0 000 4.773L12 17.38l5.569-5.569a3.375 3.375 0 10-4.773-4.773L9.613 10.22l-1.06-1.062 2.371-2.372a3.375 3.375 0 00-4.492.25v.001z"></path></svg>
+                                        <span class="reactions-count" id="reactions-count-778262">6</span>
+                                        <span class="reactions-label hidden m:inline-block">&nbsp;likes</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a9kth866xe7e89zxghp5q9kuhzyhmjt7" class="crayons-icon reaction-icon not-reacted"><title id="a9kth866xe7e89zxghp5q9kuhzyhmjt7">Comment button</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+                                        <span class="reactions-label hidden m:inline-block">&nbsp;Reply</span>
+                                    </div> */}
+                                </div>
+                            </div>
+
+                            <div class="comment">
+                                {/* Comentario de un suscriptor 1 */}
+                                <div class="subhead d-flex my-3 justify-content-center">
+                                    <div class="imagen">
+                                        <img src="../img/people6.png"
+                                            class=" align-self-center border-light border border-1 rounded-circle avatar2"
+                                            alt="..."/>
+                                    </div>
+                                    <div
+                                        class="opinion d-flex flex-wrap flex-column border border-secondary comment1 rounded-3">
+                                        <div class="container d-flex align-items-center justify-content-start">
+                                            <a href="#"><span class="badge bg-light text-dark names">Jay Jeckel</span></a>
+                                            <p>.</p>
+                                            <p class="dates mx-2">Sep 20</p>
+                                        </div>
+                                        {/* <div class="actions">
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true" class="dropdown-icon crayons-icon"><title>More...</title><path fill-rule="evenodd" clip-rule="evenodd" d="M7 12a2 2 0 11-4 0 2 2 0 014 0zm7 0a2 2 0 11-4 0 2 2 0 014 0zm5 2a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+                                            </a>
+                                        </div> */}
+                                        <p>Interesting idea and much props for building a site! However, there are a few
+                                            things that should be pointed out.
+
+                                            First, looking at the site's github repo, the project source is publicly visible
+                                            but it isn't open source. To be open source a project must have a permissible
+                                            license, such as MIT, GPL, Apache, etc. Without a license, the project is
+                                            proprietary and using the source is technically copyright infringement.
+
+                                            Additionally, the site's landing page doesn't have links to any of the
+                                            information a cautious user wants to see before signing up, such as Terms of
+                                            Use, Privacy Policy, and an About page. Every website should have these three
+                                            pages available from every other page of the site and especially from the
+                                            landing page.
+                                        </p>
+                                    </div>
+
+                                </div>
+                                {/* Respuesta del autor */}
+                                <div class="subhead d-flex my-3 me-5 justify-content-end">
+                                    <div class="imagen">
+                                        <img src="../img/avatar.jpeg" class="card-img-top rounded-circle avatar2" alt="..." />
+                                    </div>
+                                    <div
+                                        class="opinion d-flex flex-wrap flex-column border border-secondary comment2 rounded-3">
+                                        <div class="container d-flex align-items-center justify-content-start">
+                                            <a href="#"><span class="badge bg-light text-dark names">Nitin
+                                                    Ranganath</span></a>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" role="img"
+                                                aria-labelledby="aez12f7f6o87u158kqzikdu5aw94pdym" class="crayons-icon">
+                                                <title id="aez12f7f6o87u158kqzikdu5aw94pdym">Author</title>
+                                                <path
+                                                    d="M12 8.25a6 6 0 110 12 6 6 0 010-12zm0 2.625l-.992 2.01-2.218.322 1.605 1.564-.379 2.21L12 15.937l1.984 1.043-.379-2.209 1.605-1.564-2.218-.323L12 10.875zm.75-6.376l3.75.001v2.25l-1.022.854a7.45 7.45 0 00-2.728-.817V4.5zm-1.5 0v2.288a7.451 7.451 0 00-2.727.816L7.5 6.75V4.5h3.75z">
+                                                </path>
+                                            </svg>
+                                            <p>.</p>
+                                            <p class="dates mx-2">Sep 20</p>
+                                        </div>
+                                        <p>
+                                            Hi Jay, these are some extremely valid points. Thanks for bringing them up. It
+                                            must've slipped through my mind but I'll get started right away. Appreciate you
+                                            taking your time for letting me know!
+                                        </p>
+                                    </div>
+                                    {/* Reacciones */}
+                                    {/* <div class="reactions">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="anfh9sj69b56poy72cbv6dnth88xucav" class="crayons-icon reaction-icon not-reacted"><title id="anfh9sj69b56poy72cbv6dnth88xucav">Like comment:</title><path d="M18.884 12.595l.01.011L12 19.5l-6.894-6.894.01-.01A4.875 4.875 0 0112 5.73a4.875 4.875 0 016.884 6.865zM6.431 7.037a3.375 3.375 0 000 4.773L12 17.38l5.569-5.569a3.375 3.375 0 10-4.773-4.773L9.613 10.22l-1.06-1.062 2.371-2.372a3.375 3.375 0 00-4.492.25v.001z"></path></svg>
+                                        <span class="reactions-count" id="reactions-count-778262">6</span>
+                                        <span class="reactions-label hidden m:inline-block">&nbsp;likes</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a9kth866xe7e89zxghp5q9kuhzyhmjt7" class="crayons-icon reaction-icon not-reacted"><title id="a9kth866xe7e89zxghp5q9kuhzyhmjt7">Comment button</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+                                        <span class="reactions-label hidden m:inline-block">&nbsp;Reply</span>
+                                    </div> */}
+                                </div>
+                            </div>
+
+                            <div class="x_card border border-secondary rounded-3 mb-3">
+                                <p class="lastSection">Read next</p>
+                                <ul class="list-group list-group-flush">
+                                    <li class="group d-flex my-3">
+                                        <div class="imagen">
+                                            <img src="../img/people6.png" class="card-img-top rounded-circle avatar2 me-3"
+                                                alt="..." />
+                                        </div>
+                                        <div class="next d-flex flex-column">
+                                            <h3 class="lastSectionTitle"><a href="#">How to build a React FAQ accordion</a>
+                                            </h3>
+                                            <h3 class="lastSectionUser">cesaruseche18 - Sep 16</h3>
+                                        </div>
+                                    </li>
+                                    <li class="group d-flex my-3">
+                                        <div class="imagen">
+                                            <img src="../img/people5.png" class="card-img-top rounded-circle avatar2 me-3"
+                                                alt="..." />
+                                        </div>
+                                        <div class="next d-flex flex-column">
+                                            <h3 class="lastSectionTitle"><a href="#">UI Dev Newsletter #73</a></h3>
+                                            <h3 class="lastSectionUser">Silverstar Bistrovic- Sep 8</h3>
+                                        </div>
+                                    </li>
+                                    <li class="group d-flex my-3">
+                                        <div class="imagen">
+                                            <img src="../img/people4.png" class="card-img-top rounded-circle avatar2 me-3"
+                                                alt="..." />
+                                        </div>
+                                        <div class="next d-flex flex-column">
+                                            <h3 class="lastSectionTitle"><a href="#">Entendendo o Node.js e seu
+                                                    funcionamiento</a></h3>
+                                            <h3 class="lastSectionUser">Leonardo de Sá - Sep 17</h3>
+                                        </div>
+                                    </li>
+                                    <li class="group d-flex my-3">
+                                        <div class="imagen">
+                                            <img src="../img/people3.png" class="card-img-top rounded-circle avatar2 me-3"
+                                                alt="..." />
+                                        </div>
+                                        <div class="next d-flex flex-column">
+                                            <h3 class="lastSectionTitle"><a href="#">What is CSS in JS?</a></h3>
+                                            <h3 class="lastSectionUser">Anjan Shomooder - Sep 17</h3>
+                                        </div>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+                    <div class="side_right col-lg-3">
+                        <div class="p_card rounded-3 mb-3">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <div>
+                                        <img src="../img/avatar.jpeg"
+                                            class="border border-light border border-1 rounded-circle avatar" alt="..."/>
+                                        <a href="#"><span class="names_r pb-3">Nitin Ranganath</span></a>
+                                    </div>
+                                    <div class="boton-derecha py-3">
+                                        <button type="button" class="btn btn-primary btn-r">Follow</button>
+                                    </div>
+                                    <div class="card_author">
+                                        <p>An avid MERN stack developer, building websites that you'd love using.</p>
+                                        <p class="negrita">LOCATION</p>
+                                        <p>Mumbai</p>
+                                        <p class="negrita">EDUCATION</p>
+                                        <p>Bachelor of Engineering</p>
+                                        <p class="negrita">WORK</p>
+                                        <p>Student & Freelancer</p>
+                                        <p class="negrita">JOINED</p>
+                                        <p>6 de oct. 2019</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="p_card2 rounded-3">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item names_r">More from <a href="#">Nitin Ranganath</a></li>
+                                <li class="list-group-item card_author py-3">
+                                    <div class="tecs pb-3">
+                                        <a class="more_title" href="#">I Built a VSCode Inspired Developer Portfolio</a>
+                                    </div>
+                                    <div>
+                                        <a class="more_tags" href="#">#showdev</a>
+                                        <a class="more_tags" href="#">#webdev</a>
+                                        <a class="more_tags" href="#">#react</a>
+                                        <a class="more_tags" href="#">#nextjs</a>
+                                    </div>
+                                </li>
+
+                                <li class="list-group-item card_author py-3">
+                                    <div class="tecs pb-3">
+                                        <a class="more_title" href="#">Build a Crypto Discord Bot using Discord.js</a>
+                                    </div>
+                                    <div>
+                                        <a class="more_tags" href="#">#tutorial</a>
+                                        <a class="more_tags" href="#">#javascript</a>
+                                        <a class="more_tags" href="#">#programming</a>
+                                    </div>
+                                </li>
+
+                                <li class="list-group-item card_author py-3">
+                                    <div class="tecs pb-3">
+                                        <a class="more_title" href="#">You Need to Try These 10 NPM Packages as a React
+                                            Developer</a>
+                                    </div>
+                                    <div>
+                                        <a class="more_tags" href="#">#react</a>
+                                        <a class="more_tags" href="#">#javascript</a>
+                                        <a class="more_tags" href="#">#webdev</a>
+                                        <a class="more_tags" href="#">#beginners</a>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+
+            </main>
 
     </>
     );
