@@ -10,13 +10,17 @@ function Home() {
     const fetchData = async () => {
       const data = await getPosts();
       const collection = data.data.post
+
+      console.log(collection)
       
       setSquare(collection)
     };
     fetchData();
   }, []);
 
-  //console.log(square);
+  console.log(square);
+
+  
   
   
   return (
@@ -1080,12 +1084,12 @@ function Home() {
              
                 <Cards 
                    key={i._id}
+                   id={i._id}
 		               date={i.date}
 		               likes={i.likes}
 		               title={i.title}
 		               tags={i.tags}
 		               url={i.url}
-		               body={i.body}
                 />)
               }
 
