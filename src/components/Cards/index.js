@@ -1,8 +1,10 @@
-const Cards = ({date,likes,title,tags,url,body}) => {
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
+const Cards = ({id,date,likes,title,tags,url}) => {
+    const navigate = useNavigate();
   return (
     <>
-      {/* id={id}
-      <h6>body: {body}</h6> */}
 
       <div className="card rounded-3 mb-2">
       <img src={url}alt="" className="img-fluid"/>
@@ -22,7 +24,8 @@ const Cards = ({date,likes,title,tags,url,body}) => {
             </div>
             <div className="ms-5">
                 <div className="card-title mb-3">
-                    <h2><a href="#" className="text-dark fw-bolder">{title}</a></h2>
+                    {/* <h2><a href="#" className="text-dark fw-bolder">{title}</a></h2> */}
+                    <h2  onClick={(e) =>  navigate(`/post/${id}`) }  className="text-dark fw-bolder" style={{cursor: 'pointer'}}>{title}</h2>
                 </div>
                 <div className="mb-3 text-black-50">
                     <a href="#" className="text-black-50 me-3"><span

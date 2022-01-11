@@ -18,7 +18,9 @@ function Home() {
     fetchData();
   }, []);
 
-  //console.log(square);
+  console.log(square);
+
+  
   
   
   return (
@@ -1082,12 +1084,12 @@ function Home() {
              
                 <Cards 
                    key={i._id}
+                   id={i._id}
 		               date={i.date}
 		               likes={i.likes}
 		               title={i.title}
 		               tags={i.tags}
 		               url={i.url}
-		               body={i.body}
                 />)
               }
 
